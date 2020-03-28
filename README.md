@@ -1,37 +1,27 @@
-# ecommerce-laravel-fullstack
+# Dental Site Project Using Laravel
 
-# Link : http://vampireecommerce.herokuapp.com
 
-- Fully functional E-commerce website front-end and back-end built from scratch.
+
+- Fully functional Dental website .
 - Using laravel voyager as an admin panel for the site.
 - javascript, jquery, bootstrap and css for the front-end.
-- Intelligent searching mechanism for products.
-- Awesome Cart package that uses session.
-- An artisan command to seed the database with all neccessary dummy data, even for voyager tables (php artisan ecommerce:install).
+- Adding items to the cart that uses session.
 - Different user roles and privileges.
 - Categories, tags and price filtering for easier search for products.
 - And much more features.
 
-- Home Page
 
-![Screenshot (35)](https://user-images.githubusercontent.com/39973541/68545143-e8aeb280-03d2-11ea-8bb1-1c245150e432.png)
 
-- Shopping Page
+## Installation
 
-![Screenshot (36)](https://user-images.githubusercontent.com/39973541/68545195-5bb82900-03d3-11ea-801f-40d1f8c3334a.png)
-
-- Cart Page
-
-![Screenshot (37)](https://user-images.githubusercontent.com/39973541/68545206-82765f80-03d3-11ea-8c5d-95ce0fc68e83.png)
-
-- Checkout page
-
-![Screenshot (38)](https://user-images.githubusercontent.com/39973541/68545217-9a4de380-03d3-11ea-8a97-18057d9ea3f2.png)
-
-- Admin Orders BREAD
-
-![Screenshot (33)](https://user-images.githubusercontent.com/39973541/68546326-ab035700-03dd-11ea-860c-7912775e2359.png)
-
-- Admin Products BREAD
-
-![Screenshot (34)](https://user-images.githubusercontent.com/39973541/68546338-d4bc7e00-03dd-11ea-9934-4c7329435f8a.png)
+1. Clone the repo and `cd` into it
+1. `composer install`
+1. Rename or copy `.env.example` file to `.env`
+1. `php artisan key:generate`
+1. Set your database credentials in your `.env` file
+1. Set `ADMIN_PASSWORD` in your `.env` file if you want to specify an admin password. If not, the default password is 'password'
+1. `php artisan ecommerce:install`. This will migrate the database and run any seeders necessary. 
+1. `npm install`
+1. `npm run dev`
+1. `php artisan serve` or use Laravel Valet or Laravel Homestead
+1. Visit `localhost:8000` in your browser
