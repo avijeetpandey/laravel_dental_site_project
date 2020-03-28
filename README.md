@@ -10,7 +10,7 @@
 - Categories, tags and price filtering for easier search for products.
 - And much more features.
 
-
+## Make sure there is a dental name database already created on your local machine .
 
 ## Installation
 
