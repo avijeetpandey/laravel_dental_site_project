@@ -25,3 +25,22 @@
 1. `npm run dev`
 1. `php artisan serve` or use Laravel Valet or Laravel Homestead
 1. Visit `localhost:8000` in your browser
+
+
+## Screenshots
+
+- HomePage
+
+![Homepage image](https://github.com/avijeetpandey/laravel_dental_site_project/blob/master/project_images/home.png)
+
+- Login Page
+
+![Login Page](https://github.com/avijeetpandey/laravel_dental_site_project/blob/master/project_images/login.png)
+
+- Register Page
+
+![Register Page](https://github.com/avijeetpandey/laravel_dental_site_project/blob/master/project_images/register.png)
+
+- Services Page 
+
+![Services Page](https://github.com/avijeetpandey/laravel_dental_site_project/blob/master/project_images/services.png)
